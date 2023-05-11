@@ -7,7 +7,6 @@ export const cartFromContext = React.createContext();
 export default function CartContext({ children }) {
   const { setTotal, setNumberOfItemsInCart } =
     React.useContext(sharedStateContext);
-  //let key;
 
   function notify(header) {
     let { type, productName } = header;
@@ -22,7 +21,7 @@ export default function CartContext({ children }) {
     } else if (type === 'limitExceeded') {
       toaster.push(
         <Notification type="info" header="Limit Exceeded">
-          You can only order 3 of a Single Product
+          You can only order 5 of a Single Product
         </Notification>,
         { duration: 1200 }
       );
@@ -81,7 +80,7 @@ export default function CartContext({ children }) {
     if (itemID in cart === true) {
       let updatedQuantity = Number(cart[itemID]['quantity']) + 1;
 
-      if (updatedQuantity > 3) {
+      if (updatedQuantity > 5) {
         notify({ productName: name, type: 'limitExceeded' });
         return false;
       } else {

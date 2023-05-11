@@ -7,7 +7,8 @@
     "delivery": false,
     "thumbnail": "https://mechanicalkeyboards.com/shop/images/products/large_DKME1961ST-USPDZZT1_10.jpg",
     "inStock": true,
-    "categoryId": "fgsa2142fa"
+    "categoryId": "fgsa2142fa",
+    "onSale": false
   },
   {
     "id": "2a",
@@ -17,7 +18,8 @@
     "delivery": true,
     "thumbnail": "https://mechanicalkeyboards.com/shop/images/products/large_2790_SakuraTKL_1.jpg",
     "inStock": true,
-    "categoryId": "fgsa2142fa"
+    "categoryId": "fgsa2142fa",
+    "onSale": true
   },
   {
     "id": "3a",
@@ -27,7 +29,8 @@
     "delivery": true,
     "thumbnail": "https://mechanicalkeyboards.com/shop/images/products/large_2017_Disco_White_Caps_1.png",
     "inStock": false,
-    "categoryId": "fgsa2142fa"
+    "categoryId": "fgsa2142fa",
+    "onSale": true
   },
   {
     "id": "4b",
@@ -37,7 +40,8 @@
     "delivery": false,
     "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/71BKQhFzDmL._AC_SY355_.jpg",
     "inStock": false,
-    "categoryId": "xasgy42fa"
+    "categoryId": "xasgy42fa",
+    "onSale": false
   },
   {
     "id": "5b",
@@ -47,7 +51,8 @@
     "delivery": false,
     "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/719KtJ-RAFL._AC_SL1417_.jpg",
     "inStock": true,
-    "categoryId": "xasgy42fa"
+    "categoryId": "xasgy42fa",
+    "onSale": true
   },
   {
     "id": "6b",
@@ -57,6 +62,51 @@
     "delivery": false,
     "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
     "inStock": true,
-    "categoryId": "xasgy42fa"
+    "categoryId": "xasgy42fa",
+    "onSale": false
+  },
+  {
+    "id": "7b",
+    "name": "fridge",
+    "price": 10000,
+    "currency": "USD",
+    "delivery": true,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/21US7o7dMML._SY445_SX342_QL70_FMwebp_.jpg",
+    "inStock": true,
+    "categoryId": "a1b2c3d4",
+    "onSale": true
+  },
+  {
+    "id": "8b",
+    "name": "Godrej",
+    "price": 14000,
+    "currency": "USD",
+    "delivery": true,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/41nr-PImE3L._SY445_SX342_QL70_FMwebp_.jpg",
+    "inStock": true,
+    "categoryId": "a1b2c3d4",
+    "onSale": true
+  },
+  {
+    "id": "9b",
+    "name": "Samsung",
+    "price": 14490,
+    "currency": "USD",
+    "delivery": true,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61TTF88NJUL._SY741_.jpg",
+    "inStock": true,
+    "categoryId": "a1b2c3d4",
+    "onSale": true
+  },
+  {
+    "id": "aaki",
+    "name": "Haier",
+    "price": 65000,
+    "currency": "USD",
+    "delivery": true,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51-V4Rj4jdL._SX679_.jpg",
+    "inStock": true,
+    "categoryId": "a1b2c3d4",
+    "onSale": false
   }
 ]

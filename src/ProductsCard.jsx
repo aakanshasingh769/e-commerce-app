@@ -11,6 +11,7 @@ export default function ProductsCard({
   thumbnail,
   inStock,
   categoryId,
+  onSale,
 }) {
   let { addToCart } = React.useContext(cartFromContext);
   let item = {
@@ -45,6 +46,17 @@ export default function ProductsCard({
               }}
             >
               <i>{!delivery && 'Not'}&nbsp;Available for delivery</i>
+            </p>
+            <br />
+
+            <p
+              className="other-details"
+              style={{
+                fontSize: '16px',
+                color: onSale === true ? '#031c81' : '#f80000',
+              }}
+            >
+              <i>{!onSale && 'Not'}&nbsp;For Sale</i>
             </p>
             <br />
           </Content>

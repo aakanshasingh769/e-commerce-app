@@ -50,10 +50,12 @@ export default function Footer() {
         <span id="contact">
           <h3>Contact US</h3>
           <dt style={{ display: 'inline' }}>Call us:</dt>
-          <dl style={{ display: 'inline' }}>&emsp;012 5530 5530</dl>
+          <dl style={{ display: 'inline' }}>&emsp;9079160287</dl>
           <br />
           <dt style={{ display: 'inline' }}>Mail us:</dt>
-          <dl style={{ display: 'inline' }}>&emsp;dummy@gmail.com</dl>
+          <dl style={{ display: 'inline' }}>
+            &emsp;aakanshasingh769@gmail.com
+          </dl>
         </span>
       </div>
     </>

@@ -14,7 +14,8 @@
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.8.2",
     "rsuite": "^5.28.2",
-    "sass": "^1.59.3"
+    "sass": "^1.59.3",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

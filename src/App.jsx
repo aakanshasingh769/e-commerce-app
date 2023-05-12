@@ -6,7 +6,7 @@ import Home from './Home';
 import categories from './categories.json';
 import Cart from './Cart';
 import CartContext from './contexts/CartContext';
-import Footer from './Footer';
+
 import './styles/app.scss';
 import SharedStateContext from './contexts/SharedStatesContext';
 import FinalPage from './FinalPage';
@@ -53,10 +53,6 @@ export default function App() {
           </Routes>
         </CartContext>
       </SharedStateContext>
-
-      <footer id="footer">
-        <Footer />
-      </footer>
     </>
   );
 }

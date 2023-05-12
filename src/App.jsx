@@ -6,7 +6,6 @@ import Home from './Home';
 import categories from './categories.json';
 import Cart from './Cart';
 import CartContext from './contexts/CartContext';
-
 import './styles/app.scss';
 import SharedStateContext from './contexts/SharedStatesContext';
 import FinalPage from './FinalPage';

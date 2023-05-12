@@ -67,8 +67,8 @@
   },
   {
     "id": "7b",
-    "name": "fridge",
-    "price": 10000,
+    "name": "Lg",
+    "price": 1000,
     "currency": "USD",
     "delivery": true,
     "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/21US7o7dMML._SY445_SX342_QL70_FMwebp_.jpg",
@@ -79,7 +79,7 @@
   {
     "id": "8b",
     "name": "Godrej",
-    "price": 14000,
+    "price": 1400,
     "currency": "USD",
     "delivery": true,
     "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/41nr-PImE3L._SY445_SX342_QL70_FMwebp_.jpg",
@@ -90,7 +90,7 @@
   {
     "id": "9b",
     "name": "Samsung",
-    "price": 14490,
+    "price": 1449,
     "currency": "USD",
     "delivery": true,
     "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61TTF88NJUL._SY741_.jpg",
@@ -101,7 +101,7 @@
   {
     "id": "aaki",
     "name": "Haier",
-    "price": 65000,
+    "price": 6500,
     "currency": "USD",
     "delivery": true,
     "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51-V4Rj4jdL._SX679_.jpg",

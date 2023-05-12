@@ -35,7 +35,7 @@ export default function Navbar({ setIsCartVisible }) {
               borderRadius: '10px',
               backgroundColor: 'transparent',
               marginLeft: '-45%',
-              marginTop: '14%',
+              marginTop: '-18%',
             }}
           >
             {noOfItemsInCart === '0' ? '' : noOfItemsInCart}
